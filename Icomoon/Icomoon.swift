@@ -80,7 +80,7 @@ public extension UIImage {
 
 public extension String {
     public static func iconWithName(_ name: Icon) -> String {
-        return name.rawValue.substring(to: name.rawValue.characters.index(name.rawValue.startIndex, offsetBy: 1))
+        return name.rawValue.substring(to: name.rawValue.index(name.rawValue.startIndex, offsetBy: 1))
     }
 }
 
